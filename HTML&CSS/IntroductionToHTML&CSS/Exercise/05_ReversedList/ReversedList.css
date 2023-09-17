@@ -1,0 +1,16 @@
+main {
+    background-color: #dddddd;
+    color: #95191a;
+    width: 300px;
+    text-size-adjust: 30px;
+    border: 1px solid #000000;
+
+}
+
+ol {
+    margin: 12px;
+}
+
+p {
+    text-align: center;;
+}
