@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 1em/1.2 Georgia, serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font: inherit;
+}
+
+a {
+    background-color: rgb(0, 153, 0);
+    padding: 0.5em 1.5em;
+    color: #fff;
+    border-radius: 0.2em;
+    text-decoration: none;
+}
+
+.btn-wrapper {
+    text-align: right;
+}
+
+.card {
+    width: 28em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 2555, 255);
+    box-shadow: 0 0 2em lightslategrey;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content h3 {
+    margin: 0.8em 0;
+}
+
+.card .content {
+    padding: 1em 2em 2.5em 2em;
+}
+
+.content p:first-of-type {
+    padding-bottom: 2.5em;
+}

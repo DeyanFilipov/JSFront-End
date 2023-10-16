@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+div {
+    margin: 2em auto;
+    width: max-content;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 0.8em;
+}
+
+a {
+    border-radius: 50%;
+    background-color: #eeeeee;
+    padding: 0.8em;
+    color: black;
+}
+
+a.fb:hover {
+    color: #3b5998;
+}
+
+a.twitter:hover {
+    color: #1da1f2;
+}
+
+a.gplus:hover {
+    color: #db4a39;
+}
+
+a.linkedin:hover {
+    color: #0072b1;
+}
+
+a.instagram:hover {
+    color: #4f5bd5;
+}

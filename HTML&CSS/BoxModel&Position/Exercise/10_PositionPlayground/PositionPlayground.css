@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(
+        90deg,
+        rgba(10, 7, 65, 0) 0%,
+        rgba(0, 0, 129, 1) 0%,
+        rgba(132, 234, 255, 1) 100%
+    );
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 246, 0) 0%,
+        rgba(255, 0, 178, 1) 0%,
+        rgba(254, 149, 3, 1) 100%
+    );
+}
+
+.viewport:nth-child(1) i {
+    position: absolute;
+    color: #FFF;
+    bottom: 4%;
+    right: 3%;
+}
+
+.viewport:nth-child(2) i {
+    position: absolute;
+    color: #FFF;
+    bottom: 1%;
+    right: 2%;
+}
+
+.card {
+    width: 30em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 0.3em;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card .inner-shadow {
+    display: block;
+    background-color: rgb(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.5) inset;
+    opacity: 1;
+}
