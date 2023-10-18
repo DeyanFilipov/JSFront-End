@@ -1,0 +1,36 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75em;
+    margin: 4em auto;
+    gap: 2em;
+}
+
+.blockquote-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.site-content {
+    flex: 1 0 65%;
+}
+
+.site-sidebar {
+    flex: 1 0 25%;
+}
+
+img.align-right {
+    float: right;
+}
+
+img.align-left {
+    float: left;
+}
+
+.blockquote-wrapper > blockquote {
+    flex-basis: 40%;
+}
+
+.blockquote-wrapper > p {
+    flex-basis: 60%;
+}

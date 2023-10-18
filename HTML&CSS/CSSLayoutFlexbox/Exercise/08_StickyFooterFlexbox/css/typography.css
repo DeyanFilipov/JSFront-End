@@ -1,0 +1,40 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+h2 {
+    padding-bottom: 0.5em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.site-header,
+.site-content {
+    padding: 2em;
+}
+
+.site-header {
+    border-bottom: 5px solid rgb(102, 102, 102);
+    margin-bottom: 1.5em;
+    padding-bottom: 1.2em;
+}
+
+.site-header > p {
+    padding-bottom: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.site-footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+.site-footer p:last-child {
+    padding-bottom: 0;
+}

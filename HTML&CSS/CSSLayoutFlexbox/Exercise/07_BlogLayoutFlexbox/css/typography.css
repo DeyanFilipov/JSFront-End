@@ -1,0 +1,111 @@
+html {
+    font: 16px/1.5 Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 0.6em;
+}
+
+p,
+ul {
+    padding-bottom: 1.5em;
+}
+
+blockquote,
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+img {
+    display: block;
+    padding: 0.5em;
+    background-color: rgb(255, 2555, 255);
+    border: 6px solid black;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+img.align-right {
+    margin: 0 0 1em 1em;
+}
+
+img.align-left {
+    margin: 0 1em 1em 0;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+section p:last-child {
+    padding-bottom: 0;
+}
+
+.site-header {
+    border-bottom: 3px solid #000;
+    flex: 1 1 100%;
+    padding-bottom: 0;
+}
+
+.site-header > p {
+    padding-bottom: 0.5em;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.site-content {
+    margin-right: 5em;
+}
+
+.site-sidebar li {
+    margin-left: 2em;
+}
+
+.site-sidebar section {
+    margin-bottom: 0;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+.blockquote-wrapper blockquote {
+    border-left: 2px solid #ccc;
+    padding-left: 2em;
+    font-style: italic;
+    color: #5e5e5e;
+    font-weight: 500;
+}
+
+.blockquote-wrapper > p {
+    padding-right: 2em;
+}
+
+.blockquote-wrapper {
+    padding-bottom: 1.5em;
+}
+
+.site-sidebar ul > li > a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}

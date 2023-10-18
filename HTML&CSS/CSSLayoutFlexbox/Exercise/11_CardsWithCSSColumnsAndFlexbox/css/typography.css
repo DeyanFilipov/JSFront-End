@@ -1,0 +1,38 @@
+body {
+    background-color: #eee;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+    flex-basis: 100%;
+    padding-bottom: 0.5em;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.1);
+}
+
+.masonry {
+    margin-bottom: 10em;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+}
+
+.card section,
+.card footer {
+    padding: 1em 1.2em;
+}
+
+.card section {
+    flex: 1 0 auto;
+}
+
+.card footer {
+    border-top: 2px solid #ccc;
+}

@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 3em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 1.5em;
+}
+
+main {
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-bottom: 0.5em;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+header nav > ul {
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    display: block;
+    list-style: none outside;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
