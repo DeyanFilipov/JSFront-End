@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font: 16px/1.2 'Times New Roman', Times, serif;
+    border: 0.3rem solid #8e8e8e;
+    margin: 32px;
+}
+
+.timeline {
+    align-items: center;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #8e8e8e;
+    top: 52px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline .site-header {
+    display: flex;
+    justify-content: center;
+}
+
+.timeline .title {
+    margin-top: 24px;
+    border: 1px solid #8e8e8e;
+    border-radius: 4px;
+    padding: 6px 14px;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.container.right::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #048e03;
+    border: 4px solid #8e8e8e;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.container.left::after {
+    content: '';    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #ff9a05;
+    border: 4px solid #8e8e8e;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+    text-align: right;
+    padding-left: 80px; 
+}
+
+.right {
+    left: 50%;
+    text-align: left;
+    padding-right: 80px;
+}
+
+.right::after {
+    left: -16px;
+}
+
+.container h3 {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.container .sub-list {
+    list-style: square;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        min-width: 290px;
+    }
+    .timeline::after {
+    left: 31px;
+    }
+
+    .timeline .site-header {
+        justify-content: flex-start;
+        margin-left: 16px;
+      }
+    
+    .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    .right {
+    left: 0%;
+    }
+
+    .left {
+        text-align: left;
+    }
+  }
